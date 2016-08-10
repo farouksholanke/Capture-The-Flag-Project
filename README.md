@@ -1,1 +1,3 @@
-# Capture-The-Flag-Project
+// Capture-The-Flag-Project
+
+// Lit Flag Bearers
