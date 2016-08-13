@@ -18,7 +18,8 @@ public abstract class Player extends Entity{
   /** this player's number */
   protected int number;
   
-   
+   protected boolean isCaught;
+   protected boolean isJailed;
   /** gets this player's team name
     * 
     * @return the team name that this player is on
@@ -55,6 +56,8 @@ public abstract class Player extends Entity{
     this.name = name;
     this.number = number;
     this.team = team;
+    this.isCaught = false;
+    this.isJailed = false;
     f.registerPlayer(this, this.id, side);  // register the player on the field
   }
   
